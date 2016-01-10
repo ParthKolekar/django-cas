@@ -3,13 +3,12 @@
 """
 
 import logging
+import urllib2
 from urllib import urlencode, urlopen
 from urlparse import urljoin
-import urllib2
 
 from django.conf import settings
-
-from django_cas.models import User
+from django.contrib.auth.models import User
 
 __all__ = ['CASBackend']
 logger = logging.getLogger(__name__)
@@ -176,5 +175,3 @@ class CASBackend(object):
             return User.objects.get(pk=user_id)
         except User.DoesNotExist:
             return None
-
-

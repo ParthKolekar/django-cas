@@ -5,12 +5,12 @@
 test_django-cas
 ------------
 
-Tests for `django-cas` models module.
+Tests for `django-cas` backends module.
 """
 
 from django.test import TestCase
 
-from django_cas import models
+from django_cas import backends
 
 
 class TestDjango_cas(TestCase):
