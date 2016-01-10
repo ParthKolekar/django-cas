@@ -104,6 +104,8 @@ def login(request, next_page=None, required=False):
             return HttpResponseRedirect(next_page)
         elif settings.CAS_RETRY_LOGIN or required:
             return HttpResponseRedirect(_login_url(service))
+        elif settings.CAS_FAILURE_URL:
+            return HttpResponseRedirect(settings.CAS_FAILURE_URL)
         else:
             error = "<h1>Forbidden</h1><p>Login failed.</p>"
             return HttpResponseForbidden(error)

@@ -13,6 +13,7 @@ _DEFAULTS = {
     'CAS_RETRY_LOGIN': False,
     'CAS_SERVER_URL': None,
     'CAS_VERSION': '2',
+    'CAS_FAILURE_URL': '/',
 }
 
 for key, value in _DEFAULTS.iteritems():
