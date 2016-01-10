@@ -2,9 +2,6 @@
 django-cas
 =============================
 
-.. image:: https://badge.fury.io/py/django-cas.png
-    :target: https://badge.fury.io/py/django-cas
-
 .. image:: https://travis-ci.org/ParthKolekar/django-cas.png?branch=master
     :target: https://travis-ci.org/ParthKolekar/django-cas
 
@@ -25,11 +22,6 @@ Install django-cas::
 Then use it in a project::
 
     import django_cas
-
-Features
---------
-
-* TODO
 
 Running Tests
 --------------
