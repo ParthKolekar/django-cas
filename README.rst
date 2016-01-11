@@ -40,7 +40,7 @@ Does the code actually work?
 Credits
 ---------
 
-Credits to .. _django_cas: https://bitbucket.org/cpcc/django-cas
+Credits to https://bitbucket.org/cpcc/django-cas
 
 Tools used in rendering this package:
 
