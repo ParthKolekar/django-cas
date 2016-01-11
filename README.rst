@@ -17,7 +17,8 @@ Quickstart
 
 Install django-cas::
 
-    pip install django-cas
+    git clone https://github.com/ParthKolekar/django-cas.git && cd django-cas
+    pip install .
 
 Then use it in a project::
 
@@ -36,6 +37,8 @@ Does the code actually work?
 
 Credits
 ---------
+
+Credits to [django_cas](https://butbucket.org/cpcc/django-cas)
 
 Tools used in rendering this package:
 
