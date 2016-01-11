@@ -2,10 +2,6 @@
 Usage
 ========
 
-To use django-cas in a project::
-
-    import django_cas
-
 You can now use the `django_cas.views.login` and 
 `django-cas.views.logout` to do login and logouts by overriding
 the default Django authentcation url endpoint.

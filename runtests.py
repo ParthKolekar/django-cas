@@ -17,10 +17,11 @@ try:
             "django.contrib.auth",
             "django.contrib.contenttypes",
             "django.contrib.sites",
-            "django_cas",
         ],
         SITE_ID=1,
-        MIDDLEWARE_CLASSES=(),
+        MIDDLEWARE_CLASSES=(
+            "django_cas.middleware.CASBackend"
+        ),
     )
 
     try:

@@ -9,7 +9,7 @@ try:
 except ImportError:
     from distutils.core import setup
 
-version = "2.3.0"
+version = "2.3.5"
 
 if sys.argv[-1] == 'publish':
     try:
@@ -31,7 +31,7 @@ readme = open('README.rst').read()
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
-    name='django-cas',
+    name='django-cas-minimal',
     version=version,
     description="""A Django CAS library for version 1.7.4 which actually works""",
     long_description=readme + '\n\n' + history,

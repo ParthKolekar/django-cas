@@ -2,6 +2,9 @@
 django-cas
 =============================
 
+.. image:: https://badge.fury.io/py/django-cas-minimal.png
+    :target: https://badge.fury.io/py/django-cas-minimal
+
 .. image:: https://travis-ci.org/ParthKolekar/django-cas.png?branch=master
     :target: https://travis-ci.org/ParthKolekar/django-cas
 
@@ -17,8 +20,7 @@ Quickstart
 
 Install django-cas::
 
-    git clone https://github.com/ParthKolekar/django-cas.git && cd django-cas
-    pip install .
+    pip install django-cas-minimal
 
 Then use it in a project::
 
@@ -38,7 +40,7 @@ Does the code actually work?
 Credits
 ---------
 
-Credits to [django_cas](https://butbucket.org/cpcc/django-cas)
+Credits to .. _django_cas: https://bitbucket.org/cpcc/django-cas
 
 Tools used in rendering this package:
 
