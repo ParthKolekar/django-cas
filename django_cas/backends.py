@@ -74,16 +74,16 @@ def _verify_with_attributes(ticket, service):
     )
     page = urlopen(
         url
+    )    
+    response = page.read()
+    logger.debug(
+        'Got response from CAS:\n' + str(
+            response
+        )
     )
     try:
         user = None
         attributes = {}
-        response = page.read()
-        logger.debug(
-            'Got response from CAS:\n' + str(
-                response
-            )
-        )
         tree = ElementTree.fromstring(
             response
         )
