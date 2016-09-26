@@ -23,6 +23,12 @@ class CASMiddleware(
         Middleware that allows CAS authentication on admin pages
     """
 
+    def __init__(self):
+        super(self).___init__()
+
+    def __call__(self, request, view_func, view_args, view_kwargs):
+        self.process_request(request)
+
     def process_request(
         self,
         request
